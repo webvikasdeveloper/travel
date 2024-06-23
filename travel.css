@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-image: url('https://www.thestatesman.com/wp-content/uploads/2024/04/Darjeeling.jpg');
+    background-size: cover;
+    
+
+
+
+
+}
+
+nav {
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+
+
+ul {
+
+    width: 60vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 0px 14px;
+    color: white;
+    font-family: "Poppins";
+
+}
+
+li:hover {
+    background-color: rgb(5, 5, 218);
+    border-radius: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+
+#logo {
+
+    height: 30px;
+    margin: auto 10px;
+    width: auto;
+    color: white;
+
+}
+
+.full {
+    margin: 120px 90px;
+
+
+}
+
+.cont {
+    width: 41%;
+    margin: 10px 10px;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(2, 2, 2);
+
+}
+
+.txt {
+    width: 65%;
+    margin: 10px 10px;
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    
+    font-family: "Poppins";
+
+
+}
+
+button {
+    display: inline-block;
+    width: 150px;
+    margin: 34px 15px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(207, 223, 237, 0.039);
+    box-shadow: 3px 4px 4px black;
+
+}
+
+button:hover {
+    background-color: rgba(249, 248, 251, 0.127);
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.icons {
+    display: flex;
+}
+
+.icn {
+    margin: 18px;
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 45px;
+    width: 45px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.lg {
+    height: 80%;
+    mix-blend-mode: color-burn;
+    border-radius: 50px;
+    margin: auto;
+}
+.icn:hover{
+    transform: scale(1.3);
+    transition: all 1s;
+    
+}
